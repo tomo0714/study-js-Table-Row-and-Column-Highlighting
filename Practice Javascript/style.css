@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* reset */
+body * {
+  box-sizing: border-box;
+}
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/* base */
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* main */
+body {
+  background-color: purple;
+}
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  color: yellow;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 100px 0;
+}
+table {
+  width: 100%;
+}
+th {
+  background-color: rgb(189, 3, 189);
+  color: #fff;
+}
+tr td {
+  background-color: #fff;
+}
+td {
+  text-align: center;
+  line-height: 30px;
+}
+
+/* javascript */
+.target td,
+td.target {
+  background-color: #e8e8e8;
+}
